@@ -1,0 +1,12 @@
+.Footer{
+  background-color: rgb(76, 74, 78);
+  text-align: center;
+  color: white;
+  width: 100%;
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  margin-top: -3em;
+
+}

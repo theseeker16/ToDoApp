@@ -1,0 +1,58 @@
+.wrapper{
+  background-color: rgb(76, 74, 78);
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper .title{
+  right: 0;
+  margin-bottom: 60px;
+  color: white;
+}
+
+.todo-form{
+  padding: 40px;
+  color: white;
+}
+
+.wrapper .title_bottom{
+  color: white;
+  margin-bottom: 60px;
+  margin-left:40px;
+}
+
+.count{
+  float: right;
+  font-size: 18px;
+}
+
+.error-message {
+  background-color: #ff7272;
+  color: white;
+  padding: 1em;
+}
+
+.container-bottom{
+  padding-bottom: 50px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width:768px){
+  .todo-form {
+    font-size: 12px;
+  }
+}
